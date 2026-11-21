@@ -1,0 +1,26 @@
+# unpacked deposit and collection outputs (download from Zenodo; do not commit)
+_chain/
+_enrich/multichain/
+_enrich/mint/
+_enrich/reputation/
+_enrich/coding/
+
+# generated reports (QA audits, cross-check output)
+_enrich/reports/
+
+# reference data for the external cross-check (agents_core.csv goes here)
+_raw/
+
+# build output of build_package.py
+submission/
+
+# generated figures
+figures/
+
+# runtime
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+.DS_Store
